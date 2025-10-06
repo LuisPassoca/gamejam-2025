@@ -1,4 +1,4 @@
-# Projeto de jogo para a Gamejam do IFSP (CAR) de 2025 - Inserir nome do jogo
+# Projeto de jogo para a Gamejam do IFSP (CAR) de 2025
 Nesse repósitório, temos todos os arquivos relacionados à criação do jogo para a competição. (Atualizar o README ao terminar)
 
 # Tutorial rápido para os integrantes do grupo:
