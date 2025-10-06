@@ -36,10 +36,13 @@
   "name":"Test project",
   "resources":[
     {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},},
+    {"id":{"name":"objManager","path":"objects/objManager/objManager.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"objProjectile","path":"objects/objProjectile/objProjectile.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
+    {"id":{"name":"sprProjectile","path":"sprites/sprProjectile/sprProjectile.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
