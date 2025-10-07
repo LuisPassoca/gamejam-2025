@@ -43,6 +43,8 @@
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprProjectile","path":"sprites/sprProjectile/sprProjectile.yy",},},
+    {"id":{"name":"sprTileGrass","path":"sprites/sprTileGrass/sprTileGrass.yy",},},
+    {"id":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
