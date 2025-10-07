@@ -23,7 +23,9 @@ if (place_meeting(x, y+vspd, objCollision)) {
 	vspd = 0
 }
 
+
 y += vspd
+
 
 //Jump (non-variable height)
 if keyboard_check_pressed(vk_up) && place_meeting(x, y+1, objCollision) {
@@ -40,6 +42,11 @@ if !keyboard_check(vk_up) && vspd<grav
 	vspd += grav
 }
 
+//Dash
+
+
+
+/*
 //Charge shot
 if keyboard_check(ord("C")) && shotcharge<=2 && canshoot = 1 {
 	shotcharge += 0.01
@@ -64,3 +71,4 @@ if keyboard_check_released(ord("C")) && canshoot = 1 {
 	
 	time_source_start(resetShootingTimer)
 }
+*/
