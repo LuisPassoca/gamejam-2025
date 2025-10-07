@@ -1,6 +1,6 @@
-spd = 4
+spd = 2
 grav = 0.5
-jspd = 12
+jspd = 8
 vspd = 0
 
 shotcharge = 0
