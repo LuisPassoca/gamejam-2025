@@ -23,6 +23,7 @@ noDash = function() {
 		hspd = 0
 	}
 
+	
 	x += hspd
 
 	//Get direction player is facing and puts in a global
