@@ -19,6 +19,7 @@
   "height":128,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"bc452e60-5ef8-4ed9-b8a7-f27a7a28ac0a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"bc452e60-5ef8-4ed9-b8a7-f27a7a28ac0a","opacity":10.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"b7e4115b-9a14-4f01-a0c6-06b7c8cb2108","blendMode":0,"displayName":"default","isLocked":false,"name":"b7e4115b-9a14-4f01-a0c6-06b7c8cb2108","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprTileGrass2",

@@ -5,8 +5,12 @@ vspd = 0
 hspd = 0
 dashCooldown = 0
 canGrab = 0
-wallJumpTimer = 0
-canWallJump = 0
+wallJumpTimer = 12
+canJump = 0
+
+jumpBuffer = time_source_create(time_source_game,0.15,time_source_units_seconds, function() {
+	canJump = 0
+})
 
 noDash = function() {
 	//Horizontal movement
@@ -36,11 +40,20 @@ noDash = function() {
 
 	y += vspd
 
+	//Reset jump
+	if place_meeting(x, y+5, objCollision) {
+		canJump = 1
+	}
+	else {
+		time_source_start(jumpBuffer)
+	}
+	
 
 	//Jump (non-variable height)
-	if keyboard_check_pressed(vk_up) && place_meeting(x, y+5, objCollision) {
+	if keyboard_check_pressed(vk_up) && canJump = 1 {
 		vspd = -jspd
 		canGrab = 0
+		canJump = 0
 	}
 	else
 	{
@@ -113,16 +126,15 @@ wallGrab = function() {
 		vspd += grav
 	}
 	
-	if keyboard_check_pressed(vk_up) {
+	/*if keyboard_check_pressed(vk_up) {
 		state = wallJump
-		canWallJump = 1
-		wallJumpTimer = 10
-	}
+	}*/
 	
 	y += vspd
 	
 	if (hspd != global.facing && hspd != 0) or !place_meeting(x+sign(global.facing), y, objCollision) or place_meeting(x, y+1, objCollision) {
 	state = noDash
+	canJump = 1
 	}
 		
 	if keyboard_check_pressed(vk_shift) && dashCooldown = 0 {
@@ -131,36 +143,33 @@ wallGrab = function() {
 		dashTimer = 12
 		dashCooldown = 30
 		vspd = 0
+		
 	}
 	
 	
 }
 
 wallJump = function() {
-
-	if place_meeting(x+sign(global.facing), y, objCollision) && canWallJump = 1 {
-	vspd = -jspd
-	canWallJump = 0
-	}
-	else {
-		vspd += grav
-	}
-	
-	if wallJumpTimer != 0 && !place_meeting(x+(sign(global.facing * -1)), y, objCollision) {
-	x += sign(global.facing * -1) * spd
+	if wallJumpTimer != 0 && !place_meeting(x+sign(global.facing * -1), y, objCollision)  {
+		x += sign(global.facing) * -2
+		if !place_meeting(x, y-3, objCollision) {
+			y -= 3
+		}
+		else {
+			if !place_meeting(x, y-1, objCollision) {
+				y -= 1
+			}
+		}
 	}
 	else {
 		state = noDash
+		wallJumpTimer = 12
+		vspd = -3
+		if place_meeting(x+sign(global.facing * -1), y, objCollision) {
+			global.facing *= -1
+		}
 	}
-	
-	if place_meeting(x+(sign(global.facing * -1)), y, objCollision) {
-		global.facing *= -1
-		state = wallGrab
-	}
-	
 	wallJumpTimer--
-	y += vspd
-	
 }
 
 
