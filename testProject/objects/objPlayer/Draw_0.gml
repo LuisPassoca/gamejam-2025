@@ -1,4 +1,4 @@
 draw_self()
 
 //Debugging
-//draw_text(x,y-50, global.shotdmg)
+//draw_text(x,y-50, state)
