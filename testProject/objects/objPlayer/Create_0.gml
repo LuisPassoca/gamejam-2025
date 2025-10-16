@@ -59,7 +59,7 @@ noDash = function() {
 	else
 	{
 		vspd += grav
-		if !place_meeting(x, y+1, objCollision) {
+		if vspd > 0 {
 			canGrab = 1
 		}
 	}
@@ -68,7 +68,7 @@ noDash = function() {
 	if !keyboard_check(vk_up) && vspd<grav
 	{
 		vspd += grav
-		if !place_meeting(x, y+1, objCollision) {
+		if vspd > 0 {
 			canGrab = 1
 		}
 	}
@@ -86,7 +86,7 @@ noDash = function() {
 	}
 	
 	//Wallgrab
-	if canGrab = 1 && place_meeting(x+sign(global.facing), y, objCollision) {
+	if canGrab = 1 && place_meeting(x+sign(global.facing), y, objCollision) && !place_meeting(x, y+1, objCollision) {
 		state = wallGrab
 		vspd = 0
 		dashCooldown = 0
@@ -138,7 +138,7 @@ wallGrab = function() {
 	canJump = 1
 	}
 		
-	if keyboard_check_pressed(vk_shift) && dashCooldown = 0 {
+	if keyboard_check_pressed(vk_shift) && dashCooldown = 0 && hspd != global.facing {
 		state = isDashing
 		global.facing *= -1
 		dashTimer = 12
@@ -151,21 +151,22 @@ wallGrab = function() {
 }
 
 wallJump = function() {
+	var wvspd
 	if wallJumpTimer != 0 && !place_meeting(x+sign(global.facing * -1), y, objCollision)  {
-		x += sign(global.facing) * -2
+		x += sign(global.facing) * -1
 		if !place_meeting(x, y-3, objCollision) {
-			y -= 3
+			wvspd = -jspd
 		}
 		else {
 			if !place_meeting(x, y-1, objCollision) {
-				y -= 1
+				wvspd = -1
 			}
 		}
+		y += wvspd
 	}
 	else {
 		state = noDash
 		wallJumpTimer = 12
-		vspd = -3
 		if place_meeting(x+sign(global.facing * -1), y, objCollision) {
 			global.facing *= -1
 		}

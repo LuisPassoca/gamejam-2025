@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Menus & GUI","order":2,"path":"folders/Objects/Menus & GUI.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"objManager","order":1,"path":"objects/objManager/objManager.yy",},
+  ],
+}
