@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Text","order":1,"path":"folders/Objects/Text.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"holderRoom","order":1,"path":"rooms/holderRoom/holderRoom.yy",},
+    {"name":"sprTextResize","order":1,"path":"sprites/sprTextResize/sprTextResize.yy",},
+  ],
+}

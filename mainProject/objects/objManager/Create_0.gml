@@ -1,8 +1,11 @@
-Height = window_get_height()*2.5
-Width = window_get_width()*2.5
-
-window_set_size(Width,Height)
+window_set_size(288 * 3,208 * 3)
 
 window_center()
 
 game_set_speed(60,gamespeed_fps)
+
+
+
+
+//Atribuir variáveis
+global.text = "test"
