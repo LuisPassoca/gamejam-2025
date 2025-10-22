@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objManager",
+  "%Name":"objUI",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objManager",
+  "name":"objUI",
   "overriddenProperties":[],
   "parent":{
     "name":"Menus & GUI",
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprTrashGUI",
+    "path":"sprites/sprTrashGUI/sprTrashGUI.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

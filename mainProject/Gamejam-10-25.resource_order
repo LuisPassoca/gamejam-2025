@@ -1,9 +1,24 @@
 {
   "FolderOrderSettings":[
+    {"name":"later","order":9,"path":"folders/Objects/later.yy",},
     {"name":"Text","order":1,"path":"folders/Objects/Text.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"objCol","order":3,"path":"objects/objCol/objCol.yy",},
+    {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"objTrash","order":1,"path":"objects/objTrash/objTrash.yy",},
+    {"name":"objTrashMinigame","order":2,"path":"objects/objTrashMinigame/objTrashMinigame.yy",},
+    {"name":"objTrashSort","order":3,"path":"objects/objTrashSort/objTrashSort.yy",},
+    {"name":"objUI","order":1,"path":"objects/objUI/objUI.yy",},
+    {"name":"Fase1","order":2,"path":"rooms/Fase1/Fase1.yy",},
     {"name":"holderRoom","order":1,"path":"rooms/holderRoom/holderRoom.yy",},
+    {"name":"spr_PlaceHolder","order":2,"path":"sprites/spr_PlaceHolder/spr_PlaceHolder.yy",},
+    {"name":"sprPlayerDash","order":7,"path":"sprites/sprPlayerDash/sprPlayerDash.yy",},
+    {"name":"sprPlayerIdle","order":3,"path":"sprites/sprPlayerIdle/sprPlayerIdle.yy",},
+    {"name":"sprPlayerJump","order":6,"path":"sprites/sprPlayerJump/sprPlayerJump.yy",},
+    {"name":"sprPlayerRun","order":4,"path":"sprites/sprPlayerRun/sprPlayerRun.yy",},
     {"name":"sprTextResize","order":1,"path":"sprites/sprTextResize/sprTextResize.yy",},
+    {"name":"sprTrashGUI","order":8,"path":"sprites/sprTrashGUI/sprTrashGUI.yy",},
+    {"name":"sprTrashHolder","order":5,"path":"sprites/sprTrashHolder/sprTrashHolder.yy",},
   ],
 }

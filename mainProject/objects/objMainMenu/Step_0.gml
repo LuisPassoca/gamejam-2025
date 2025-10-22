@@ -16,10 +16,14 @@ if keyboard_check_pressed(vk_enter)
 		room_goto_next()
 		break;
 		
-		case 1: //credits
+		case 1: //fullscreen
+		window_set_fullscreen(!window_get_fullscreen())
 		break;
 		
-		case 2: //quit
+		case 2: //Credits
+		break;
+		
+		case 3: //quit
 		game_end()
 		break;
 		

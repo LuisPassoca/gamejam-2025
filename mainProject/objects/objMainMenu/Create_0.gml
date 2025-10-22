@@ -6,13 +6,15 @@ move = 0
 
 //Define os botões e seus respectivos textos
 start = "Começar"
+fullscreen = "Tela Cheia"
 credits = "Créditos"
 quit = "Sair"
 
 //Cria um array com os botões
 button[0] = start
-button[1] = credits
-button[2] = quit
+button[1] = fullscreen
+button[2] = credits
+button[3] = quit
 
 //Guarda o tamanho do array
 buttons = array_length(button)

@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objManager",
+  "%Name":"objPlayer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objManager",
+  "name":"objPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus & GUI",
-    "path":"folders/Objects/Menus & GUI.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprPlayerIdle",
+    "path":"sprites/sprPlayerIdle/sprPlayerIdle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
