@@ -10,7 +10,7 @@ if global.lixocheck = 1 {
 		global.lixocheck=0
 }
 
-if y > 220 {
+if y > 280 {
 	instance_destroy()
 	global.lixocheck=2
 }

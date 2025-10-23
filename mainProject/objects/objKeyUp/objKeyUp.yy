@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprArrows",
-    "path":"sprites/sprArrows/sprArrows.yy",
+    "name":"sprArrowUP",
+    "path":"sprites/sprArrowUP/sprArrowUP.yy",
   },
   "spriteMaskId":null,
   "visible":true,

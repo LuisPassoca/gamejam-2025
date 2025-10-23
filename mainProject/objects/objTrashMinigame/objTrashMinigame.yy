@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTrashHolder",
-    "path":"sprites/sprTrashHolder/sprTrashHolder.yy",
+    "name":"sprTrashMinigame",
+    "path":"sprites/sprTrashMinigame/sprTrashMinigame.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -3,6 +3,7 @@ image_yscale = 2
 
 global.forcejump = 0
 
+global.lixo = global.saveLixo
 
 vspd = 0
 hspd = 0

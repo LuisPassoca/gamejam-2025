@@ -2,7 +2,10 @@ if global.lixo != 0 {
 	if !wait {
 	lixo = irandom_range(0,4)
 	global.lixosprite = lixo
-	instance_create_depth(x + ((lixo) * 48),y,0,objTrashMinigame)
+	instance_create_depth(x + ((lixo) * 56.8 ),y,0,objTrashMinigame)
+	
+	
+	
 	wait = true
 	}
 	
@@ -44,5 +47,8 @@ if global.lixo != 0 {
 	
 }
 
-if global.lixo = 0
+if global.lixo = 0 {
+	global.checkpointXY[0] = 0
+	global.checkpointXY[1] = 0
 	room_goto_next()
+}
