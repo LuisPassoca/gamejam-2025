@@ -1,3 +1,9 @@
+global.playerX = 0
+global.playerY = 0
+global.checkpointXY = []
+global.checkpointXY[0] = 32
+global.checkpointXY[1] = 80
+
 buttonIndex = 0
 drawHeight = 20
 menuX = x

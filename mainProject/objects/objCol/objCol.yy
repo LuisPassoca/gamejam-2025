@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolder",
-    "path":"sprites/spr_PlaceHolder/spr_PlaceHolder.yy",
+    "name":"sprPlaceHolder",
+    "path":"sprites/sprPlaceHolder/sprPlaceHolder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

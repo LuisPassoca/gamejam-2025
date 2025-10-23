@@ -1,3 +1,9 @@
+image_xscale = 2
+image_yscale = 2
+
+global.forcejump = 0
+
+
 vspd = 0
 hspd = 0
 mspd = 2
@@ -17,19 +23,30 @@ stateFree = function() {
 	hspd = _hspd
 	
 	//Gravidade	
-	if !place_meeting(x,y+1,objCol)
+	if !place_meeting(x,y+1,objCol) && vspd < 3
 	vspd += grav
-	else
+
+	if place_meeting(x,y+1,objCol)
 	vspd = 0
 	
-	if keyboard_check_pressed(vk_up) && place_meeting(x,y+1,objCol)
-	vspd = -jspd
+	if (keyboard_check(vk_up) && place_meeting(x,y+1,objCol)) or (global.forcejump = 1) {
+	if !global.forcejump = 1
+		vspd = -jspd
+	else
+		vspd = (-jspd) * 1.5
+	global.forcejump=0
+	}
 	
 	if !keyboard_check(vk_up) && vspd<grav
 	vspd += grav
 	
 	if place_meeting(x,y-1,objCol)
 	vspd = 0.1
+	
+	if place_meeting(x,y-5,objRisePlatform) && !place_meeting(x,y+1,objCol) {
+	y+=2
+	vspd += 1
+	}
 	
 	//Aplica gravidade e velocidade horizontal
 	move_and_collide(hspd,0,objCol)
@@ -52,7 +69,22 @@ stateFree = function() {
 		vspd = -jspd
 		hspd = -5 * lastFacing
 	}
+	
+	//Moving platform
+	
+	with instance_nearest(x,y,objRisePlatform) {
+		if place_meeting(x,y-1,objPlayer) {
+			global.varY = platformY + platformDirection
+			global.enableTP = 1
+		}
+		else
+			global.enableTP = 0
+	}
+	
+	if global.enableTP = 1
+		y = global.varY
 }
+
 
 manageSprites = function() {
 	//Sprites

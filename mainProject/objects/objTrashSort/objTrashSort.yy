@@ -10,8 +10,8 @@
   "name":"objTrashSort",
   "overriddenProperties":[],
   "parent":{
-    "name":"later",
-    "path":"folders/Objects/later.yy",
+    "name":"trashDDR",
+    "path":"folders/Objects/trashDDR.yy",
   },
   "parentObjectId":null,
   "persistent":false,

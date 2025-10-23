@@ -1,9 +1,16 @@
-y++
+y+=2
 
 if global.lixocheck = 1 {
-	if place_meeting(x,y,objSkillBar)
+	if place_meeting(x,y,objSkillBar){
 		global.lixo--
-
-	instance_destroy()
+		global.lixocheck=2
+		instance_destroy()
+	}
+	else
+		global.lixocheck=0
 }
 
+if y > 220 {
+	instance_destroy()
+	global.lixocheck=2
+}

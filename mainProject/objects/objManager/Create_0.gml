@@ -8,4 +8,13 @@ randomize()
 
 //Atribuir variáveis
 global.text = ""
-global.lixo = 0
+global.lixo = 10
+
+
+
+if room != Fase1
+	layer_set_visible("UILayer", false)
+else {
+	instance_create_depth(global.checkpointXY[0], global.checkpointXY[1], 0, objPlayer)
+	layer_set_visible("UILayer", true)
+}

@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_65F48E7F","path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"inst_6EC534F3","path":"rooms/TitleScreen/TitleScreen.yy",},
+    {"name":"inst_70816949","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

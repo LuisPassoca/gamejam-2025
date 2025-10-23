@@ -1,0 +1,21 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"Gamejam-08-25",
+    "path":"Gamejam-08-25.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[
+    {"$GMRUILayer":"v1","%Name":"UILayer","alignItems":3,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+            {"$GMRInstance":"v2","%Name":"inst_70816949","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70816949","objectId":{"name":"objUI","path":"objects/objUI/objUI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-4.0,"y":16.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4294073416,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
+      ],"flexDirection":2,"flexWrap":1,"gridX":32,"gridY":32,"justifyContent":2,"name":"UILayer","nodeColour":4282935026,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+  ],
+  "visible":true,
+}

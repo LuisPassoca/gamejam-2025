@@ -6,8 +6,8 @@
   "name":"objTrash",
   "overriddenProperties":[],
   "parent":{
-    "name":"later",
-    "path":"folders/Objects/later.yy",
+    "name":"trashDDR",
+    "path":"folders/Objects/trashDDR.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PlaceHolder",
-    "path":"sprites/spr_PlaceHolder/spr_PlaceHolder.yy",
+    "name":"sprPlaceHolder",
+    "path":"sprites/sprPlaceHolder/sprPlaceHolder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
