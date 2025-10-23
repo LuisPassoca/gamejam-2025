@@ -24,7 +24,7 @@ stateFree = function() {
 	hspd = _hspd
 	
 	//Gravidade	
-	if !place_meeting(x,y+1,objCol) && vspd < 3
+	if !place_meeting(x,y+1,objCol) && vspd < 4
 	vspd += grav
 
 	if place_meeting(x,y+1,objCol)

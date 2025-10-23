@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlaceHolder3",
-    "path":"sprites/sprPlaceHolder3/sprPlaceHolder3.yy",
+    "name":"sprCloud_1",
+    "path":"sprites/sprCloud_1/sprCloud_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
-height = image_yscale
+sprite_index = sprCloud
 
-
-tsAppear = time_source_create(time_source_game,5, time_source_units_seconds, function() {
-	image_yscale = height
+tsAppear = time_source_create(time_source_game,3, time_source_units_seconds, function() {
+	sprite_index = sprCloud
+	image_speed = 1
 })
 
-tsFall = time_source_create(time_source_game,3, time_source_units_seconds, function() {
-	image_yscale = 0
+tsFall = time_source_create(time_source_game,1.5, time_source_units_seconds, function() {
+	sprite_index = sprCloud2
 	time_source_start(tsAppear)
 })

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlaceHolder4",
-    "path":"sprites/sprPlaceHolder4/sprPlaceHolder4.yy",
+    "name":"sprMushroom",
+    "path":"sprites/sprMushroom/sprMushroom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
