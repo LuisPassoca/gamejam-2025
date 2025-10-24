@@ -7,6 +7,8 @@ global.lixo = 0
 global.saveLixo = 0
 
 
+
+
 buttonIndex = 0
 drawHeight = 20
 menuX = x
@@ -16,7 +18,7 @@ move = 0
 //Define os botões e seus respectivos textos
 start = "Começar"
 fullscreen = "Tela Cheia"
-credits = "Créditos"
+credits = "Controles"
 quit = "Sair"
 
 //Cria um array com os botões

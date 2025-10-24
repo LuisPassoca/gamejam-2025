@@ -31,6 +31,7 @@ stateFree = function() {
 	vspd = 0
 	
 	if (keyboard_check(vk_up) && place_meeting(x,y+1,objCol)) or (global.forcejump = 1) {
+	audio_play_sound(jump,0,0,0.5)
 	if !global.forcejump = 1
 		vspd = -jspd
 	else
@@ -57,6 +58,7 @@ stateFree = function() {
 	if keyboard_check_pressed(vk_shift) && canDash = 1 {
 		canDash = 0
 		state = stateDash
+		audio_play_sound(dash,0,0,1)
 	}
 	
 	if place_meeting(x,y+1,objCol) or place_meeting(x+sign(hspd),y,objCol) or place_meeting(x,y,objSpring) or place_meeting(x,y,objSpring2)
@@ -69,6 +71,7 @@ stateFree = function() {
 	if place_meeting(x+lastFacing, y, objCol) && keyboard_check_pressed(vk_up) && !place_meeting(x, y+1, objCol) {
 		vspd = -jspd
 		hspd = -5 * lastFacing
+		audio_play_sound(jump,0,0,0.5)
 	}
 	
 	//Moving platform

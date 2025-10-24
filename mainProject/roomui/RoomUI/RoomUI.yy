@@ -5,8 +5,8 @@
   "locked":false,
   "name":"RoomUI",
   "parent":{
-    "name":"Gamejam-08-25",
-    "path":"Gamejam-08-25.yyp",
+    "name":"Gamejam-10-25",
+    "path":"Gamejam-10-25.yyp",
   },
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",

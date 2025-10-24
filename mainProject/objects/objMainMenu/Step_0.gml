@@ -2,6 +2,9 @@ move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
 
 buttonIndex += move
 
+if keyboard_check_pressed(vk_down) or keyboard_check_pressed(vk_up)
+	audio_play_sound(soundSelect,0,0,0.2)
+
 //Cria um loop nos botões
 if buttonIndex < 0
 	buttonIndex = buttons-1
@@ -21,6 +24,7 @@ if keyboard_check_pressed(vk_enter)
 		break;
 		
 		case 2: //Credits
+		room_goto(Controls)
 		break;
 		
 		case 3: //quit

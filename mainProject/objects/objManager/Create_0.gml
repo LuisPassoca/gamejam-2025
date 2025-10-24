@@ -14,9 +14,6 @@ global.varY = 0
 
 
 
-
-
-
 if room = TitleScreen or room = End
 	layer_set_visible("UILayer", false)
 else {

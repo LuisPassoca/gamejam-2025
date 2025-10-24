@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"cloudVanish",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.47555557,
+  "name":"cloudVanish",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Sounds/Objects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"cloudVanish.wav",
+  "type":0,
+  "volume":1.0,
+}

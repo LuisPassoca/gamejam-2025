@@ -359,7 +359,10 @@
   "sdfSpread":8,
   "size":12.0,
   "styleName":"Regular",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"C:\\Users\\Dudu\\Desktop\\GitHub Repositories\\gamejam-2025\\mainProject\\fonts\\fontPress2PStart\\PressStart2P-Regular.ttf",
   "usesSDF":false,
 }
