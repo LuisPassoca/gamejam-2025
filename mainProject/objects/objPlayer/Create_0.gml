@@ -59,7 +59,7 @@ stateFree = function() {
 		state = stateDash
 	}
 	
-	if place_meeting(x,y+1,objCol) or place_meeting(x+sign(hspd),y,objCol)
+	if place_meeting(x,y+1,objCol) or place_meeting(x+sign(hspd),y,objCol) or place_meeting(x,y,objSpring) or place_meeting(x,y,objSpring2)
 		canDash = 1
 		
 	//Sprites
@@ -84,6 +84,21 @@ stateFree = function() {
 	
 	if global.enableTP = 1
 		y = global.varY
+	
+	with instance_nearest(x,y,objRisePlatformV) {
+		if place_meeting(x,y-1,objPlayer) {
+			global.varY = platformY + platformDirection
+			global.enableTP = 1
+		}
+		else
+			global.enableTP = 0
+	}
+	
+	if global.enableTP = 1
+		y = global.varY
+		
+		
+		
 }
 
 
@@ -114,6 +129,18 @@ stateDash = function() {
 	sprite_index = sprPlayerDash
 	
 	if dashTime > 0 {	
+		with instance_nearest(x,y,objRisePlatform) {
+		if place_meeting(x,y-1,objPlayer) {
+			global.varY = platformY + platformDirection
+			global.enableTP = 1
+		}
+		else
+			global.enableTP = 0
+	}
+	
+	if global.enableTP = 1
+		y = global.varY
+		
 	move_and_collide(sign(lastFacing)*5, 0,objCol)
 	if place_meeting(x+sign(lastFacing),y, objCol)
 		dashTime = 0

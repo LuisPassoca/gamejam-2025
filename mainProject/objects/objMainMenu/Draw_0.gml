@@ -1,5 +1,6 @@
 var i = 0
 draw_set_font(fontPress2PStart)
+draw_set_halign(fa_right)
 
 //Desenha os botões na tela e altera a cor quando selecionados
 repeat (buttons) {

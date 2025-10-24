@@ -1,4 +1,4 @@
-y+=2
+y+=4
 
 if global.lixocheck = 1 {
 	if place_meeting(x,y,objSkillBar){
