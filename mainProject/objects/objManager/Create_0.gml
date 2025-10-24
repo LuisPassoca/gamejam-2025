@@ -15,7 +15,7 @@ global.plauyerhit = 0
 
 
 
-if room = TitleScreen or room = End
+if room = TitleScreen or room = End or room = StageBack
 	layer_set_visible("UILayer", false)
 else {
 	layer_set_visible("UILayer", true)
