@@ -10,6 +10,7 @@ randomize()
 global.text = ""
 global.enableTP = 0
 global.varY = 0
+global.plauyerhit = 0
 
 
 

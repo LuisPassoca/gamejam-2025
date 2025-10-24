@@ -17,6 +17,7 @@ if room = StageBack && switchSong = 1 {
 if room = End && switchSong = 1 {
 	audio_stop_all()
 	audio_play_sound(soundEnd,1,0)
+	window_set_fullscreen(false)
 }
 
 if room = Stage && switchSong = 1 {
@@ -27,6 +28,11 @@ if room = Stage && switchSong = 1 {
 if room = SortingMinigame && switchSong = 1 {
 	audio_stop_all()
 	audio_play_sound(soundMinigame,1,1)
+}
+
+if global.playerhit = 1 {
+	audio_play_sound(playerHit,1,0,0.5)
+	global.playerhit = 0
 }
 
 	switchSong = 0

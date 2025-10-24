@@ -2,8 +2,8 @@
   "FolderOrderSettings":[
     {"name":"Text","order":1,"path":"folders/Objects/Text.yy",},
     {"name":"trashDDR","order":4,"path":"folders/Objects/trashDDR.yy",},
-    {"name":"Player","order":6,"path":"folders/Sounds/Player.yy",},
     {"name":"Objects","order":5,"path":"folders/Sounds/Objects.yy",},
+    {"name":"Player","order":6,"path":"folders/Sounds/Player.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"fontPress2PStart_1","order":1,"path":"fonts/fontPress2PStart_1/fontPress2PStart_1.yy",},
@@ -40,6 +40,7 @@
     {"name":"StageBack","order":6,"path":"rooms/StageBack/StageBack.yy",},
     {"name":"RoomUI","order":1,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"jump","order":1,"path":"sounds/jump/jump.yy",},
+    {"name":"playerHit","order":2,"path":"sounds/playerHit/playerHit.yy",},
     {"name":"soundEnd","order":2,"path":"sounds/soundEnd/soundEnd.yy",},
     {"name":"soundMinigame","order":4,"path":"sounds/soundMinigame/soundMinigame.yy",},
     {"name":"soundSelect","order":2,"path":"sounds/soundSelect/soundSelect.yy",},
@@ -56,6 +57,7 @@
     {"name":"sprCloud2","order":22,"path":"sprites/sprCloud2/sprCloud2.yy",},
     {"name":"sprCloudSky","order":38,"path":"sprites/sprCloudSky/sprCloudSky.yy",},
     {"name":"sprEcoponto","order":32,"path":"sprites/sprEcoponto/sprEcoponto.yy",},
+    {"name":"sprEndMenu","order":44,"path":"sprites/sprEndMenu/sprEndMenu.yy",},
     {"name":"sprFlowers","order":30,"path":"sprites/sprFlowers/sprFlowers.yy",},
     {"name":"sprFreira","order":33,"path":"sprites/sprFreira/sprFreira.yy",},
     {"name":"sprKeys","order":12,"path":"sprites/sprKeys/sprKeys.yy",},
