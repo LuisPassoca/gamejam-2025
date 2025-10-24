@@ -1,23 +1,35 @@
-# TrashGrab - README
+# TrashGrab - README ♻
+
+<img width="697" height="358" alt="image" src="https://github.com/user-attachments/assets/2ea0b0b4-b9a4-43fb-9e6b-42204b179876" />
 
 
-<img width="697" height="358" alt="image" src="https://github.com/user-attachments/assets/2fd0626e-9a80-457d-a9a2-d7834435334a" />
+<h2>PASSO A PASSO PARA EXECUÇÃO: 📃</h2>
 
-
-
-<h2>PASSO A PASSO PARA EXECUÇÃO: </h2>
-
-> <h3>Obter repositório do projeto via GitHub:
+> <h3>1 - Obter repositório do projeto via GitHub:</h3>
 > 
-Primeiramente será necessário acessar o repositório no seguinte [link](https://github.com/LuisPassoca/gamejam-2025). Após isso, é preciso acessar o botão de "<i>código"</i> e logo após clicar na opção <i>"Baixar ZIP"</i>, assim baixando a pasta compactada do projeto. 
+Primeiramente será necessário acessar o repositório no seguinte [link](https://github.com/LuisPassoca/gamejam-2025). Após isso, é preciso acessar o botão de "<b>código"</b> e logo após clicar na opção <b>"Baixar ZIP"</b>, assim baixando a pasta compactada do projeto. 
 
-<img width="400" height="334" alt="print-download-ZIP" src="https://github.com/user-attachments/assets/d8ab13ba-0a11-4716-8ad6-2e80c89b5cb1"/>
+<img width="455" height="345" alt="image" src="https://github.com/user-attachments/assets/3f20f316-f635-4117-8bbb-948093d2ef3b" />
+
 <br>
 
-> <h3>Executar Programa:
-> 
-Logo em seguida, após descompactada a pasta, para executar o programa você deve acessar a pasta <i><b>-> MainProject</b></i>. Logo após clicado, só é preciso dar um duplo clique o executável nomeado como <i><b>TrashGrab.exe</b></i> 
+> <h3> 2 - Descompactar e Executar Programa:</h3>
 
-+ ⚠ Caso o executável apresente problemas, apenas extraia o executável e o arquivo "<i><b>data.win</b></i>".
+Após descompactada a primeira pasta ZIP, para executar o programa você deve acessar a decompactar a pasta <b>-> "Executável.zip"</b>.
 
-<img width="160" height="148" alt="image" src="https://github.com/user-attachments/assets/d59ef7f4-d2db-46a7-bfbe-d33c605b9c72"/>
+<img width="616" height="252" alt="image" src="https://github.com/user-attachments/assets/1aceb506-c178-423f-8de0-f2aacfecc4c2" />
+
+Nisso, três novos arquivos aparecerão (sendo um o executável), Você só precisa clicar nele para abrir o jogo. 
+
+<img width="629" height="65" alt="image" src="https://github.com/user-attachments/assets/90b05320-a89c-47f4-afad-4ee3891b92ee" />
+
++ ⚠ O sistema de Segurança do Windows pode abrir uma janela de aviso após a tentativa de execução, você só precisa clicar em <b>"Mais Informações"</b> e logo abaixo aparecerá a opção <b>"Executar mesmo assim"</b>.
+
+<img width="534" height="498" alt="image" src="https://github.com/user-attachments/assets/088fd617-1903-494d-bb1e-25ab39e93b4b" />
+
+> <h3>3 - Fim</h3>
+Obrigado pela sua atenção. 
+Agora você pode finalmente jogar o jogo e se divertir reciclando.
+<br>
+<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/08cd2f9b-8f60-4187-8db6-4d5aba03c995" />
+
