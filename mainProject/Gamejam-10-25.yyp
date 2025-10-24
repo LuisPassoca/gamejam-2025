@@ -127,6 +127,7 @@
     {"id":{"name":"sprTextResize","path":"sprites/sprTextResize/sprTextResize.yy",},},
     {"id":{"name":"sprTileGround","path":"sprites/sprTileGround/sprTileGround.yy",},},
     {"id":{"name":"sprTileWater","path":"sprites/sprTileWater/sprTileWater.yy",},},
+    {"id":{"name":"sprTitle_1","path":"sprites/sprTitle_1/sprTitle_1.yy",},},
     {"id":{"name":"sprTitle","path":"sprites/sprTitle/sprTitle.yy",},},
     {"id":{"name":"sprTrashBagRipped","path":"sprites/sprTrashBagRipped/sprTrashBagRipped.yy",},},
     {"id":{"name":"sprTrashCans","path":"sprites/sprTrashCans/sprTrashCans.yy",},},

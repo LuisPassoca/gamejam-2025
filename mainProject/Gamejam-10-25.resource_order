@@ -84,6 +84,7 @@
     {"name":"sprTextResize","order":1,"path":"sprites/sprTextResize/sprTextResize.yy",},
     {"name":"sprTileGround","order":24,"path":"sprites/sprTileGround/sprTileGround.yy",},
     {"name":"sprTileWater","order":39,"path":"sprites/sprTileWater/sprTileWater.yy",},
+    {"name":"sprTitle_1","order":45,"path":"sprites/sprTitle_1/sprTitle_1.yy",},
     {"name":"sprTitle","order":40,"path":"sprites/sprTitle/sprTitle.yy",},
     {"name":"sprTrashBagRipped","order":25,"path":"sprites/sprTrashBagRipped/sprTrashBagRipped.yy",},
     {"name":"sprTrashCans","order":9,"path":"sprites/sprTrashCans/sprTrashCans.yy",},
