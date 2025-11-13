@@ -13,7 +13,7 @@ Primeiramente será necessário acessar o repositório no seguinte [link](https:
 
 <br>
 
-> <h3> 2 - Descompactar e Executar Programa:</h3>
+> <h3> 2 - Descompactar e Executar o Programa:</h3>
 
 Após descompactada a primeira pasta ZIP, para executar o programa você deve acessar a decompactar a pasta <b>-> "Executável.zip"</b>.
 
